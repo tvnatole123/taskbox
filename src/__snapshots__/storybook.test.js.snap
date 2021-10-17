@@ -1,5 +1,230 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots PureInboxScreen Default 1`] = `
+<storybook-wrapper>
+  <app-pure-inbox-screen>
+    
+    <div
+      class="page lists-show"
+    >
+      <nav>
+        <h1
+          class="title-page"
+        >
+          <span
+            class="title-wrapper"
+          >
+            Taskbox
+          </span>
+        </h1>
+      </nav>
+      <app-task-list>
+        <app-pure-task-list
+          ng-reflect-tasks="[object Object],[object Object"
+        >
+          <div
+            class="list-items"
+          >
+            <app-task
+              ng-reflect-task="[object Object]"
+            >
+              <div
+                class="TASK_INBOX list-item"
+              >
+                <label
+                  class="checkbox"
+                >
+                  <input
+                    disabled="true"
+                    name="checked"
+                    type="checkbox"
+                  />
+                  <span
+                    class="checkbox-custom"
+                  />
+                </label>
+                <div
+                  class="title"
+                >
+                  <input
+                    placeholder="Input title"
+                    readonly="true"
+                    type="text"
+                  />
+                </div>
+                <div
+                  class="actions"
+                >
+                  <a>
+                    <span
+                      class="icon-star"
+                    />
+                  </a>
+                  
+                </div>
+              </div>
+            </app-task>
+            <app-task
+              ng-reflect-task="[object Object]"
+            >
+              <div
+                class="TASK_INBOX list-item"
+              >
+                <label
+                  class="checkbox"
+                >
+                  <input
+                    disabled="true"
+                    name="checked"
+                    type="checkbox"
+                  />
+                  <span
+                    class="checkbox-custom"
+                  />
+                </label>
+                <div
+                  class="title"
+                >
+                  <input
+                    placeholder="Input title"
+                    readonly="true"
+                    type="text"
+                  />
+                </div>
+                <div
+                  class="actions"
+                >
+                  <a>
+                    <span
+                      class="icon-star"
+                    />
+                  </a>
+                  
+                </div>
+              </div>
+            </app-task>
+            <app-task
+              ng-reflect-task="[object Object]"
+            >
+              <div
+                class="TASK_INBOX list-item"
+              >
+                <label
+                  class="checkbox"
+                >
+                  <input
+                    disabled="true"
+                    name="checked"
+                    type="checkbox"
+                  />
+                  <span
+                    class="checkbox-custom"
+                  />
+                </label>
+                <div
+                  class="title"
+                >
+                  <input
+                    placeholder="Input title"
+                    readonly="true"
+                    type="text"
+                  />
+                </div>
+                <div
+                  class="actions"
+                >
+                  <a>
+                    <span
+                      class="icon-star"
+                    />
+                  </a>
+                  
+                </div>
+              </div>
+            </app-task>
+            <app-task
+              ng-reflect-task="[object Object]"
+            >
+              <div
+                class="TASK_INBOX list-item"
+              >
+                <label
+                  class="checkbox"
+                >
+                  <input
+                    disabled="true"
+                    name="checked"
+                    type="checkbox"
+                  />
+                  <span
+                    class="checkbox-custom"
+                  />
+                </label>
+                <div
+                  class="title"
+                >
+                  <input
+                    placeholder="Input title"
+                    readonly="true"
+                    type="text"
+                  />
+                </div>
+                <div
+                  class="actions"
+                >
+                  <a>
+                    <span
+                      class="icon-star"
+                    />
+                  </a>
+                  
+                </div>
+              </div>
+            </app-task>
+            
+            
+            
+          </div>
+        </app-pure-task-list>
+      </app-task-list>
+    </div>
+    
+  </app-pure-inbox-screen>
+</storybook-wrapper>
+`;
+
+exports[`Storyshots PureInboxScreen Error 1`] = `
+<storybook-wrapper>
+  <app-pure-inbox-screen
+    ng-reflect-error="true"
+  >
+    <div
+      class="page lists-show"
+    >
+      <div
+        class="wrapper-message"
+      >
+        <span
+          class="icon-face-sad"
+        />
+        <div
+          class="title-message"
+        >
+          Oh no!
+        </div>
+        <div
+          class="subtitle-message"
+        >
+          Something went wrong
+        </div>
+      </div>
+    </div>
+    
+    
+  </app-pure-inbox-screen>
+</storybook-wrapper>
+`;
+
 exports[`Storyshots Task Archived 1`] = `
 <storybook-wrapper>
   <app-task
