@@ -133,7 +133,7 @@ exports[`Storyshots TaskList Default 1`] = `
   <div
     style="margin: 3em;"
   >
-    <app-task-list
+    <app-pure-task-list
       ng-reflect-tasks="[object Object],[object Object"
     >
       <div
@@ -377,7 +377,7 @@ exports[`Storyshots TaskList Default 1`] = `
         
         
       </div>
-    </app-task-list>
+    </app-pure-task-list>
     
   </div>
 </storybook-wrapper>
@@ -388,7 +388,7 @@ exports[`Storyshots TaskList Empty 1`] = `
   <div
     style="margin: 3em;"
   >
-    <app-task-list
+    <app-pure-task-list
       ng-reflect-loading="false"
       ng-reflect-tasks=""
     >
@@ -416,7 +416,7 @@ exports[`Storyshots TaskList Empty 1`] = `
         
         
       </div>
-    </app-task-list>
+    </app-pure-task-list>
     
   </div>
 </storybook-wrapper>
@@ -427,7 +427,7 @@ exports[`Storyshots TaskList Loading 1`] = `
   <div
     style="margin: 3em;"
   >
-    <app-task-list
+    <app-pure-task-list
       ng-reflect-loading="true"
       ng-reflect-tasks=""
     >
@@ -561,7 +561,7 @@ exports[`Storyshots TaskList Loading 1`] = `
         </div>
         
       </div>
-    </app-task-list>
+    </app-pure-task-list>
     
   </div>
 </storybook-wrapper>
@@ -572,7 +572,7 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
   <div
     style="margin: 3em;"
   >
-    <app-task-list
+    <app-pure-task-list
       ng-reflect-tasks="[object Object],[object Object"
     >
       <div
@@ -816,7 +816,7 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         
         
       </div>
-    </app-task-list>
+    </app-pure-task-list>
     
   </div>
 </storybook-wrapper>
